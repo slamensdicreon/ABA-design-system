@@ -1,0 +1,4 @@
+/* The portal is styled with the ABA design system itself. */
+@import '@workspace/aba-design-system/css';
+@import '@workspace/aba-design-system/css/page.css';
+@import './portal/styles/portal.css';
