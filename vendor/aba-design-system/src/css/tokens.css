@@ -1,0 +1,235 @@
+/* GENERATED FILE — do not edit. Source: lib/aba-design-system/tokens/tokens.json
+   Regenerate with: pnpm --filter @workspace/aba-design-system run build:tokens */
+:root {
+
+  /* color */
+  --color-blue-50: #EFF4FA;
+  --color-blue-100: #DEEAF5;
+  --color-blue-200: #B9D0E8;
+  --color-blue-300: #7FA9D4;
+  --color-blue-400: #4A83BE;
+  --color-blue-500: #2868A8;
+  --color-blue-600: #1E5794;
+  --color-blue-700: #16487A;
+  --color-blue-800: #10375C;
+  --color-blue-900: #0B2440;
+  --color-gold-100: #F7EED6;
+  --color-gold-200: #ECD9A8;
+  --color-gold-400: #D6B268;
+  --color-gold-500: #C79A3A;
+  --color-gold-600: #A87E1C;
+  --color-gold-700: #8A6714;
+  --color-ink-200: #D6DADF;
+  --color-ink-300: #B4BAC2;
+  --color-ink-400: #8A929E;
+  --color-ink-500: #687078;
+  --color-ink-600: #545C68;
+  --color-ink-700: #3A424E;
+  --color-ink-800: #232B36;
+  --color-ink-900: #14181F;
+  --color-line-100: #EDEFF2;
+  --color-line-200: #E3E6EA;
+  --color-paper: #F6F7F9;
+  --color-white: #FFFFFF;
+  --color-red-100: #F7E1E3;
+  --color-red-600: #B22234;
+  --color-red-700: #8E1B29;
+  --color-green-100: #DDF0E6;
+  --color-green-600: #1E7A4D;
+  --color-green-700: #14603C;
+  --color-amber-100: #FBEED4;
+  --color-amber-600: #B8791C;
+
+  /* text */
+  --text-primary: var(--color-ink-900);
+  --text-secondary: var(--color-ink-700);
+  --text-muted: var(--color-ink-500);
+  --text-faint: var(--color-ink-400);
+  --text-inverse: var(--color-white);
+  --text-link: var(--color-blue-600);
+  --text-link-hover: var(--color-blue-800);
+  --text-on-brand: var(--color-white);
+
+  /* surface */
+  --surface-page: var(--color-white);
+  --surface-sunken: var(--color-paper);
+  --surface-card: var(--color-white);
+  --surface-brand: var(--color-blue-500);
+  --surface-brand-deep: var(--color-blue-800);
+  --surface-navy: var(--color-blue-900);
+  --surface-inverse: var(--color-blue-900);
+  --surface-tint: var(--color-blue-50);
+  --surface-gold-tint: var(--color-gold-100);
+
+  /* border */
+  --border-subtle: var(--color-line-100);
+  --border-default: var(--color-line-200);
+  --border-strong: var(--color-ink-300);
+  --border-brand: var(--color-blue-500);
+  --border-focus: var(--color-blue-500);
+
+  /* interactive */
+  --interactive-primary: var(--color-blue-500);
+  --interactive-primary-hover: var(--color-blue-700);
+  --interactive-primary-active: var(--color-blue-800);
+  --interactive-accent: var(--color-gold-500);
+  --interactive-accent-hover: var(--color-gold-600);
+
+  /* accent */
+  --accent-gold: var(--color-gold-500);
+
+  /* status */
+  --status-positive: var(--color-green-600);
+  --status-negative: var(--color-red-600);
+  --status-caution: var(--color-amber-600);
+  --status-breaking: var(--color-red-600);
+
+  /* focus */
+  --focus-ring: 0 0 0 3px var(--color-blue-200);
+
+  /* fontFamily */
+  --font-serif: "Gloock", serif;
+  --font-sans: "Google Sans", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+
+  /* fontRole */
+  --font-display: var(--font-serif);
+  --font-headline: var(--font-serif);
+  --font-body: var(--font-sans);
+  --font-ui: var(--font-sans);
+  --font-data: var(--font-mono);
+  --font-kicker: var(--font-sans);
+
+  /* fontWeight */
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-black: 900;
+
+  /* fontSize */
+  --text-2xs: 11px;
+  --text-xs: 12px;
+  --text-sm: 13px;
+  --text-base: 15px;
+  --text-md: 17px;
+  --text-lg: 20px;
+  --text-xl: 24px;
+  --text-2xl: 30px;
+  --text-3xl: 38px;
+  --text-4xl: 48px;
+  --text-5xl: 60px;
+  --text-6xl: 76px;
+
+  /* lineHeight */
+  --leading-tight: 1.08;
+  --leading-snug: 1.2;
+  --leading-heading: 1.15;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.65;
+
+  /* letterSpacing */
+  --tracking-tight: -0.02em;
+  --tracking-snug: -0.01em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.04em;
+  --tracking-kicker: 0.09em;
+
+  /* space */
+  --space-0: 0;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-32: 128px;
+  --space-px: 1px;
+  --space-0-5: 2px;
+  --space-1-5: 6px;
+  --space-2-5: 10px;
+
+  /* layoutSpace */
+  --gutter: 24px;
+  --gutter-tight: 16px;
+  --section-y: 80px;
+  --card-pad: 20px;
+  --card-pad-lg: 28px;
+
+  /* radius */
+  --radius-none: 0;
+  --radius-xs: 2px;
+  --radius-sm: 3px;
+  --radius-md: 5px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+  --radius-pill: 999px;
+  --radius-circle: 50%;
+
+  /* shadow */
+  --shadow-none: none;
+  --shadow-xs: 0 1px 2px rgba(11, 36, 64, 0.06);
+  --shadow-sm: 0 1px 3px rgba(11, 36, 64, 0.08), 0 1px 2px rgba(11, 36, 64, 0.05);
+  --shadow-md: 0 4px 10px rgba(11, 36, 64, 0.08), 0 1px 3px rgba(11, 36, 64, 0.06);
+  --shadow-lg: 0 12px 28px rgba(11, 36, 64, 0.12), 0 4px 8px rgba(11, 36, 64, 0.06);
+  --shadow-xl: 0 24px 56px rgba(11, 36, 64, 0.18);
+  --shadow-focus: var(--focus-ring);
+
+  /* ring */
+  --ring-hairline: inset 0 0 0 1px var(--color-line-200);
+
+  /* grid */
+  --grid-columns: 12;
+
+  /* container */
+  --container-max: 1280px;
+  --container-wide: 1440px;
+  --container-narrow: 720px;
+  --container-text: 66ch;
+
+  /* chrome */
+  --header-height: 64px;
+  --subnav-height: 44px;
+
+  /* zIndex */
+  --z-base: 0;
+  --z-sticky: 100;
+  --z-header: 200;
+  --z-dropdown: 300;
+  --z-overlay: 400;
+  --z-modal: 500;
+  --z-toast: 600;
+
+  /* duration */
+  --duration-fast: 120ms;
+  --duration-base: 200ms;
+  --duration-slow: 320ms;
+
+  /* easing */
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ease-emphasized: cubic-bezier(0.2, 0, 0, 1.15);
+
+  /* onDark */
+  --on-dark-text: var(--color-blue-200);
+  --on-dark-muted: #9DB0C6;
+  --on-dark-gold: var(--color-gold-400);
+  --on-dark-gold-soft: var(--color-gold-200);
+  --on-dark-hairline: rgba(255, 255, 255, 0.16);
+  --on-dark-hairline-strong: rgba(255, 255, 255, 0.14);
+
+  /* editorial */
+  --kicker-size: 11px;
+  --kicker-tracking: 0.16em;
+  --meta-size: 10.5px;
+  --meta-tracking: 0.08em;
+  --container-editorial: 1360px;
+  --gutter-editorial: 48px;
+  --duration-fade: 200ms;
+  --scrim: rgba(7, 24, 43, 0.75);
+}

@@ -1,0 +1,114 @@
+.heroWrapper {
+  border-bottom: 1px solid var(--border-default);
+}
+.container {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 0 0 48px;
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  gap: 72px;
+  align-items: stretch;
+}
+.textContent {
+  padding: 100px 0 84px;
+  opacity: 1;
+}
+.kick {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-gold-600);
+}
+.title {
+  font-family: var(--font-serif);
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 1.04;
+  letter-spacing: -0.015em;
+  margin: 22px 0 24px;
+  max-width: 13ch;
+  text-wrap: balance;
+}
+.dek {
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  margin: 0 0 32px;
+  max-width: 50ch;
+}
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-blue-800);
+  transition: gap 160ms ease;
+  text-decoration: none;
+}
+.link:hover {
+  gap: 15px;
+}
+.imageContainer {
+  position: relative;
+  background: var(--color-blue-900);
+  overflow: hidden;
+  min-height: 620px;
+}
+.image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(1) contrast(1.06) brightness(0.94);
+  mix-blend-mode: luminosity;
+  opacity: 0.92;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to top, rgba(7,24,43,0.75), transparent);
+}
+.captionText {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: #B9D0E8;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    grid-template-columns: 1fr;
+    padding: 0 48px;
+    gap: 40px;
+  }
+  .textContent {
+    padding: 64px 0 0;
+  }
+  .imageContainer {
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0;
+  }
+  .textContent {
+    padding: 48px 24px 0;
+  }
+  .title {
+    font-size: 48px;
+  }
+  .imageContainer {
+    min-height: 360px;
+  }
+}

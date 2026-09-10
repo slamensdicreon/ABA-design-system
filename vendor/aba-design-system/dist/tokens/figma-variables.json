@@ -1,0 +1,1948 @@
+{
+  "version": 1,
+  "collections": [
+    {
+      "name": "Primitives",
+      "modes": [
+        "Default"
+      ],
+      "variables": [
+        {
+          "name": "color/blue/50",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.9372549019607843,
+              "g": 0.9568627450980393,
+              "b": 0.9803921568627451,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-blue-50"
+        },
+        {
+          "name": "color/blue/100",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.8705882352941177,
+              "g": 0.9176470588235294,
+              "b": 0.9607843137254902,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-blue-100"
+        },
+        {
+          "name": "color/blue/200",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.7254901960784313,
+              "g": 0.8156862745098039,
+              "b": 0.9098039215686274,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-blue-200"
+        },
+        {
+          "name": "color/blue/300",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.4980392156862745,
+              "g": 0.6627450980392157,
+              "b": 0.8313725490196079,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-blue-300"
+        },
+        {
+          "name": "color/blue/400",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.2901960784313726,
+              "g": 0.5137254901960784,
+              "b": 0.7450980392156863,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-blue-400"
+        },
+        {
+          "name": "color/blue/500",
+          "resolvedType": "COLOR",
+          "description": "ABA brand blue — sampled from logo",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.1568627450980392,
+              "g": 0.40784313725490196,
+              "b": 0.6588235294117647,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-blue-500"
+        },
+        {
+          "name": "color/blue/600",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.11764705882352941,
+              "g": 0.3411764705882353,
+              "b": 0.5803921568627451,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-blue-600"
+        },
+        {
+          "name": "color/blue/700",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.08627450980392157,
+              "g": 0.2823529411764706,
+              "b": 0.47843137254901963,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-blue-700"
+        },
+        {
+          "name": "color/blue/800",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.06274509803921569,
+              "g": 0.21568627450980393,
+              "b": 0.3607843137254902,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-blue-800"
+        },
+        {
+          "name": "color/blue/900",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.043137254901960784,
+              "g": 0.1411764705882353,
+              "b": 0.25098039215686274,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-blue-900"
+        },
+        {
+          "name": "color/gold/100",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.9686274509803922,
+              "g": 0.9333333333333333,
+              "b": 0.8392156862745098,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-gold-100"
+        },
+        {
+          "name": "color/gold/200",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.9254901960784314,
+              "g": 0.8509803921568627,
+              "b": 0.6588235294117647,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-gold-200"
+        },
+        {
+          "name": "color/gold/400",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.8392156862745098,
+              "g": 0.6980392156862745,
+              "b": 0.40784313725490196,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-gold-400"
+        },
+        {
+          "name": "color/gold/500",
+          "resolvedType": "COLOR",
+          "description": "primary accent",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.7803921568627451,
+              "g": 0.6039215686274509,
+              "b": 0.22745098039215686,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-gold-500"
+        },
+        {
+          "name": "color/gold/600",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.6588235294117647,
+              "g": 0.49411764705882355,
+              "b": 0.10980392156862745,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-gold-600"
+        },
+        {
+          "name": "color/gold/700",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.5411764705882353,
+              "g": 0.403921568627451,
+              "b": 0.0784313725490196,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-gold-700"
+        },
+        {
+          "name": "color/ink/200",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.8392156862745098,
+              "g": 0.8549019607843137,
+              "b": 0.8745098039215686,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-ink-200"
+        },
+        {
+          "name": "color/ink/300",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.7058823529411765,
+              "g": 0.7294117647058823,
+              "b": 0.7607843137254902,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-ink-300"
+        },
+        {
+          "name": "color/ink/400",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.5411764705882353,
+              "g": 0.5725490196078431,
+              "b": 0.6196078431372549,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-ink-400"
+        },
+        {
+          "name": "color/ink/500",
+          "resolvedType": "COLOR",
+          "description": "logo wordmark gray",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.40784313725490196,
+              "g": 0.4392156862745098,
+              "b": 0.47058823529411764,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-ink-500"
+        },
+        {
+          "name": "color/ink/600",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.32941176470588235,
+              "g": 0.3607843137254902,
+              "b": 0.40784313725490196,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-ink-600"
+        },
+        {
+          "name": "color/ink/700",
+          "resolvedType": "COLOR",
+          "description": "body strong",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.22745098039215686,
+              "g": 0.25882352941176473,
+              "b": 0.3058823529411765,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-ink-700"
+        },
+        {
+          "name": "color/ink/800",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.13725490196078433,
+              "g": 0.16862745098039217,
+              "b": 0.21176470588235294,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-ink-800"
+        },
+        {
+          "name": "color/ink/900",
+          "resolvedType": "COLOR",
+          "description": "near-black headline ink",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.0784313725490196,
+              "g": 0.09411764705882353,
+              "b": 0.12156862745098039,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-ink-900"
+        },
+        {
+          "name": "color/line/100",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.9294117647058824,
+              "g": 0.9372549019607843,
+              "b": 0.9490196078431372,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-line-100"
+        },
+        {
+          "name": "color/line/200",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.8901960784313725,
+              "g": 0.9019607843137255,
+              "b": 0.9176470588235294,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-line-200"
+        },
+        {
+          "name": "color/paper",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.9647058823529412,
+              "g": 0.9686274509803922,
+              "b": 0.9764705882352941,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-paper"
+        },
+        {
+          "name": "color/white",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-white"
+        },
+        {
+          "name": "color/red/100",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.9686274509803922,
+              "g": 0.8823529411764706,
+              "b": 0.8901960784313725,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-red-100"
+        },
+        {
+          "name": "color/red/600",
+          "resolvedType": "COLOR",
+          "description": "breaking / alert / markets-down",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.6980392156862745,
+              "g": 0.13333333333333333,
+              "b": 0.20392156862745098,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-red-600"
+        },
+        {
+          "name": "color/red/700",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.5568627450980392,
+              "g": 0.10588235294117647,
+              "b": 0.1607843137254902,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-red-700"
+        },
+        {
+          "name": "color/green/100",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.8666666666666667,
+              "g": 0.9411764705882353,
+              "b": 0.9019607843137255,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-green-100"
+        },
+        {
+          "name": "color/green/600",
+          "resolvedType": "COLOR",
+          "description": "positive / markets-up",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.11764705882352941,
+              "g": 0.47843137254901963,
+              "b": 0.30196078431372547,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-green-600"
+        },
+        {
+          "name": "color/green/700",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.0784313725490196,
+              "g": 0.3764705882352941,
+              "b": 0.23529411764705882,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-green-700"
+        },
+        {
+          "name": "color/amber/100",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.984313725490196,
+              "g": 0.9333333333333333,
+              "b": 0.8313725490196079,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-amber-100"
+        },
+        {
+          "name": "color/amber/600",
+          "resolvedType": "COLOR",
+          "description": "caution",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.7215686274509804,
+              "g": 0.4745098039215686,
+              "b": 0.10980392156862745,
+              "a": 1
+            }
+          },
+          "cssVar": "--color-amber-600"
+        },
+        {
+          "name": "fontFamily/serif",
+          "resolvedType": "STRING",
+          "description": "",
+          "valuesByMode": {
+            "Default": "\"Gloock\", serif"
+          },
+          "cssVar": "--font-serif"
+        },
+        {
+          "name": "fontFamily/sans",
+          "resolvedType": "STRING",
+          "description": "",
+          "valuesByMode": {
+            "Default": "\"Google Sans\", sans-serif"
+          },
+          "cssVar": "--font-sans"
+        },
+        {
+          "name": "fontFamily/mono",
+          "resolvedType": "STRING",
+          "description": "",
+          "valuesByMode": {
+            "Default": "\"IBM Plex Mono\", monospace"
+          },
+          "cssVar": "--font-mono"
+        },
+        {
+          "name": "fontWeight/regular",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 400
+          },
+          "cssVar": "--weight-regular"
+        },
+        {
+          "name": "fontWeight/medium",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 500
+          },
+          "cssVar": "--weight-medium"
+        },
+        {
+          "name": "fontWeight/semibold",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 600
+          },
+          "cssVar": "--weight-semibold"
+        },
+        {
+          "name": "fontWeight/bold",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 700
+          },
+          "cssVar": "--weight-bold"
+        },
+        {
+          "name": "fontWeight/black",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 900
+          },
+          "cssVar": "--weight-black"
+        },
+        {
+          "name": "fontSize/2xs",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 11
+          },
+          "cssVar": "--text-2xs"
+        },
+        {
+          "name": "fontSize/xs",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 12
+          },
+          "cssVar": "--text-xs"
+        },
+        {
+          "name": "fontSize/sm",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 13
+          },
+          "cssVar": "--text-sm"
+        },
+        {
+          "name": "fontSize/base",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 15
+          },
+          "cssVar": "--text-base"
+        },
+        {
+          "name": "fontSize/md",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 17
+          },
+          "cssVar": "--text-md"
+        },
+        {
+          "name": "fontSize/lg",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 20
+          },
+          "cssVar": "--text-lg"
+        },
+        {
+          "name": "fontSize/xl",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 24
+          },
+          "cssVar": "--text-xl"
+        },
+        {
+          "name": "fontSize/2xl",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 30
+          },
+          "cssVar": "--text-2xl"
+        },
+        {
+          "name": "fontSize/3xl",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 38
+          },
+          "cssVar": "--text-3xl"
+        },
+        {
+          "name": "fontSize/4xl",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 48
+          },
+          "cssVar": "--text-4xl"
+        },
+        {
+          "name": "fontSize/5xl",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 60
+          },
+          "cssVar": "--text-5xl"
+        },
+        {
+          "name": "fontSize/6xl",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 76
+          },
+          "cssVar": "--text-6xl"
+        },
+        {
+          "name": "lineHeight/tight",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 1.08
+          },
+          "cssVar": "--leading-tight"
+        },
+        {
+          "name": "lineHeight/snug",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 1.2
+          },
+          "cssVar": "--leading-snug"
+        },
+        {
+          "name": "lineHeight/heading",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 1.15
+          },
+          "cssVar": "--leading-heading"
+        },
+        {
+          "name": "lineHeight/normal",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 1.5
+          },
+          "cssVar": "--leading-normal"
+        },
+        {
+          "name": "lineHeight/relaxed",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 1.65
+          },
+          "cssVar": "--leading-relaxed"
+        },
+        {
+          "name": "letterSpacing/tight",
+          "resolvedType": "STRING",
+          "description": "",
+          "valuesByMode": {
+            "Default": "-0.02em"
+          },
+          "cssVar": "--tracking-tight"
+        },
+        {
+          "name": "letterSpacing/snug",
+          "resolvedType": "STRING",
+          "description": "",
+          "valuesByMode": {
+            "Default": "-0.01em"
+          },
+          "cssVar": "--tracking-snug"
+        },
+        {
+          "name": "letterSpacing/normal",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 0
+          },
+          "cssVar": "--tracking-normal"
+        },
+        {
+          "name": "letterSpacing/wide",
+          "resolvedType": "STRING",
+          "description": "",
+          "valuesByMode": {
+            "Default": "0.04em"
+          },
+          "cssVar": "--tracking-wide"
+        },
+        {
+          "name": "letterSpacing/kicker",
+          "resolvedType": "STRING",
+          "description": "uppercase eyebrows",
+          "valuesByMode": {
+            "Default": "0.09em"
+          },
+          "cssVar": "--tracking-kicker"
+        },
+        {
+          "name": "space/0",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 0
+          },
+          "cssVar": "--space-0"
+        },
+        {
+          "name": "space/1",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 4
+          },
+          "cssVar": "--space-1"
+        },
+        {
+          "name": "space/2",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 8
+          },
+          "cssVar": "--space-2"
+        },
+        {
+          "name": "space/3",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 12
+          },
+          "cssVar": "--space-3"
+        },
+        {
+          "name": "space/4",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 16
+          },
+          "cssVar": "--space-4"
+        },
+        {
+          "name": "space/5",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 20
+          },
+          "cssVar": "--space-5"
+        },
+        {
+          "name": "space/6",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 24
+          },
+          "cssVar": "--space-6"
+        },
+        {
+          "name": "space/8",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 32
+          },
+          "cssVar": "--space-8"
+        },
+        {
+          "name": "space/10",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 40
+          },
+          "cssVar": "--space-10"
+        },
+        {
+          "name": "space/12",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 48
+          },
+          "cssVar": "--space-12"
+        },
+        {
+          "name": "space/16",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 64
+          },
+          "cssVar": "--space-16"
+        },
+        {
+          "name": "space/20",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 80
+          },
+          "cssVar": "--space-20"
+        },
+        {
+          "name": "space/24",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 96
+          },
+          "cssVar": "--space-24"
+        },
+        {
+          "name": "space/32",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 128
+          },
+          "cssVar": "--space-32"
+        },
+        {
+          "name": "space/px",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 1
+          },
+          "cssVar": "--space-px"
+        },
+        {
+          "name": "space/0-5",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 2
+          },
+          "cssVar": "--space-0-5"
+        },
+        {
+          "name": "space/1-5",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 6
+          },
+          "cssVar": "--space-1-5"
+        },
+        {
+          "name": "space/2-5",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 10
+          },
+          "cssVar": "--space-2-5"
+        },
+        {
+          "name": "radius/none",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 0
+          },
+          "cssVar": "--radius-none"
+        },
+        {
+          "name": "radius/xs",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 2
+          },
+          "cssVar": "--radius-xs"
+        },
+        {
+          "name": "radius/sm",
+          "resolvedType": "FLOAT",
+          "description": "default control radius",
+          "valuesByMode": {
+            "Default": 3
+          },
+          "cssVar": "--radius-sm"
+        },
+        {
+          "name": "radius/md",
+          "resolvedType": "FLOAT",
+          "description": "cards, inputs",
+          "valuesByMode": {
+            "Default": 5
+          },
+          "cssVar": "--radius-md"
+        },
+        {
+          "name": "radius/lg",
+          "resolvedType": "FLOAT",
+          "description": "modals, large panels",
+          "valuesByMode": {
+            "Default": 8
+          },
+          "cssVar": "--radius-lg"
+        },
+        {
+          "name": "radius/xl",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 12
+          },
+          "cssVar": "--radius-xl"
+        },
+        {
+          "name": "radius/pill",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 999
+          },
+          "cssVar": "--radius-pill"
+        },
+        {
+          "name": "radius/circle",
+          "resolvedType": "STRING",
+          "description": "",
+          "valuesByMode": {
+            "Default": "50%"
+          },
+          "cssVar": "--radius-circle"
+        },
+        {
+          "name": "shadow/none",
+          "resolvedType": "STRING",
+          "description": "",
+          "valuesByMode": {
+            "Default": "none"
+          },
+          "cssVar": "--shadow-none"
+        },
+        {
+          "name": "shadow/xs",
+          "resolvedType": "STRING",
+          "description": "",
+          "valuesByMode": {
+            "Default": "0 1px 2px rgba(11, 36, 64, 0.06)"
+          },
+          "cssVar": "--shadow-xs"
+        },
+        {
+          "name": "shadow/sm",
+          "resolvedType": "STRING",
+          "description": "",
+          "valuesByMode": {
+            "Default": "0 1px 3px rgba(11, 36, 64, 0.08), 0 1px 2px rgba(11, 36, 64, 0.05)"
+          },
+          "cssVar": "--shadow-sm"
+        },
+        {
+          "name": "shadow/md",
+          "resolvedType": "STRING",
+          "description": "",
+          "valuesByMode": {
+            "Default": "0 4px 10px rgba(11, 36, 64, 0.08), 0 1px 3px rgba(11, 36, 64, 0.06)"
+          },
+          "cssVar": "--shadow-md"
+        },
+        {
+          "name": "shadow/lg",
+          "resolvedType": "STRING",
+          "description": "",
+          "valuesByMode": {
+            "Default": "0 12px 28px rgba(11, 36, 64, 0.12), 0 4px 8px rgba(11, 36, 64, 0.06)"
+          },
+          "cssVar": "--shadow-lg"
+        },
+        {
+          "name": "shadow/xl",
+          "resolvedType": "STRING",
+          "description": "",
+          "valuesByMode": {
+            "Default": "0 24px 56px rgba(11, 36, 64, 0.18)"
+          },
+          "cssVar": "--shadow-xl"
+        },
+        {
+          "name": "shadow/focus",
+          "resolvedType": "STRING",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "focus/ring"
+            }
+          },
+          "cssVar": "--shadow-focus"
+        },
+        {
+          "name": "ring/hairline",
+          "resolvedType": "STRING",
+          "description": "",
+          "valuesByMode": {
+            "Default": "inset 0 0 0 1px #E3E6EA"
+          },
+          "cssVar": "--ring-hairline"
+        },
+        {
+          "name": "grid/columns",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 12
+          },
+          "cssVar": "--grid-columns"
+        },
+        {
+          "name": "container/max",
+          "resolvedType": "FLOAT",
+          "description": "standard content shell",
+          "valuesByMode": {
+            "Default": 1280
+          },
+          "cssVar": "--container-max"
+        },
+        {
+          "name": "container/wide",
+          "resolvedType": "FLOAT",
+          "description": "full editorial spread",
+          "valuesByMode": {
+            "Default": 1440
+          },
+          "cssVar": "--container-wide"
+        },
+        {
+          "name": "container/narrow",
+          "resolvedType": "FLOAT",
+          "description": "long-form article measure",
+          "valuesByMode": {
+            "Default": 720
+          },
+          "cssVar": "--container-narrow"
+        },
+        {
+          "name": "container/text",
+          "resolvedType": "STRING",
+          "description": "optimal reading measure",
+          "valuesByMode": {
+            "Default": "66ch"
+          },
+          "cssVar": "--container-text"
+        },
+        {
+          "name": "zIndex/base",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 0
+          },
+          "cssVar": "--z-base"
+        },
+        {
+          "name": "zIndex/sticky",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 100
+          },
+          "cssVar": "--z-sticky"
+        },
+        {
+          "name": "zIndex/header",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 200
+          },
+          "cssVar": "--z-header"
+        },
+        {
+          "name": "zIndex/dropdown",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 300
+          },
+          "cssVar": "--z-dropdown"
+        },
+        {
+          "name": "zIndex/overlay",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 400
+          },
+          "cssVar": "--z-overlay"
+        },
+        {
+          "name": "zIndex/modal",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 500
+          },
+          "cssVar": "--z-modal"
+        },
+        {
+          "name": "zIndex/toast",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 600
+          },
+          "cssVar": "--z-toast"
+        },
+        {
+          "name": "duration/fast",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 120
+          },
+          "cssVar": "--duration-fast"
+        },
+        {
+          "name": "duration/base",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 200
+          },
+          "cssVar": "--duration-base"
+        },
+        {
+          "name": "duration/slow",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 320
+          },
+          "cssVar": "--duration-slow"
+        },
+        {
+          "name": "easing/standard",
+          "resolvedType": "STRING",
+          "description": "",
+          "valuesByMode": {
+            "Default": "cubic-bezier(0.2, 0, 0, 1)"
+          },
+          "cssVar": "--ease-standard"
+        },
+        {
+          "name": "easing/emphasized",
+          "resolvedType": "STRING",
+          "description": "",
+          "valuesByMode": {
+            "Default": "cubic-bezier(0.2, 0, 0, 1.15)"
+          },
+          "cssVar": "--ease-emphasized"
+        }
+      ]
+    },
+    {
+      "name": "Semantic",
+      "modes": [
+        "Default"
+      ],
+      "variables": [
+        {
+          "name": "text/primary",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/ink/900"
+            }
+          },
+          "cssVar": "--text-primary"
+        },
+        {
+          "name": "text/secondary",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/ink/700"
+            }
+          },
+          "cssVar": "--text-secondary"
+        },
+        {
+          "name": "text/muted",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/ink/500"
+            }
+          },
+          "cssVar": "--text-muted"
+        },
+        {
+          "name": "text/faint",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/ink/400"
+            }
+          },
+          "cssVar": "--text-faint"
+        },
+        {
+          "name": "text/inverse",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/white"
+            }
+          },
+          "cssVar": "--text-inverse"
+        },
+        {
+          "name": "text/link",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/blue/600"
+            }
+          },
+          "cssVar": "--text-link"
+        },
+        {
+          "name": "text/link-hover",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/blue/800"
+            }
+          },
+          "cssVar": "--text-link-hover"
+        },
+        {
+          "name": "text/on-brand",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/white"
+            }
+          },
+          "cssVar": "--text-on-brand"
+        },
+        {
+          "name": "surface/page",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/white"
+            }
+          },
+          "cssVar": "--surface-page"
+        },
+        {
+          "name": "surface/sunken",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/paper"
+            }
+          },
+          "cssVar": "--surface-sunken"
+        },
+        {
+          "name": "surface/card",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/white"
+            }
+          },
+          "cssVar": "--surface-card"
+        },
+        {
+          "name": "surface/brand",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/blue/500"
+            }
+          },
+          "cssVar": "--surface-brand"
+        },
+        {
+          "name": "surface/brand-deep",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/blue/800"
+            }
+          },
+          "cssVar": "--surface-brand-deep"
+        },
+        {
+          "name": "surface/navy",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/blue/900"
+            }
+          },
+          "cssVar": "--surface-navy"
+        },
+        {
+          "name": "surface/inverse",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/blue/900"
+            }
+          },
+          "cssVar": "--surface-inverse"
+        },
+        {
+          "name": "surface/tint",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/blue/50"
+            }
+          },
+          "cssVar": "--surface-tint"
+        },
+        {
+          "name": "surface/gold-tint",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/gold/100"
+            }
+          },
+          "cssVar": "--surface-gold-tint"
+        },
+        {
+          "name": "border/subtle",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/line/100"
+            }
+          },
+          "cssVar": "--border-subtle"
+        },
+        {
+          "name": "border/default",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/line/200"
+            }
+          },
+          "cssVar": "--border-default"
+        },
+        {
+          "name": "border/strong",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/ink/300"
+            }
+          },
+          "cssVar": "--border-strong"
+        },
+        {
+          "name": "border/brand",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/blue/500"
+            }
+          },
+          "cssVar": "--border-brand"
+        },
+        {
+          "name": "border/focus",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/blue/500"
+            }
+          },
+          "cssVar": "--border-focus"
+        },
+        {
+          "name": "interactive/primary",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/blue/500"
+            }
+          },
+          "cssVar": "--interactive-primary"
+        },
+        {
+          "name": "interactive/primary-hover",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/blue/700"
+            }
+          },
+          "cssVar": "--interactive-primary-hover"
+        },
+        {
+          "name": "interactive/primary-active",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/blue/800"
+            }
+          },
+          "cssVar": "--interactive-primary-active"
+        },
+        {
+          "name": "interactive/accent",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/gold/500"
+            }
+          },
+          "cssVar": "--interactive-accent"
+        },
+        {
+          "name": "interactive/accent-hover",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/gold/600"
+            }
+          },
+          "cssVar": "--interactive-accent-hover"
+        },
+        {
+          "name": "accent/gold",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/gold/500"
+            }
+          },
+          "cssVar": "--accent-gold"
+        },
+        {
+          "name": "status/positive",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/green/600"
+            }
+          },
+          "cssVar": "--status-positive"
+        },
+        {
+          "name": "status/negative",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/red/600"
+            }
+          },
+          "cssVar": "--status-negative"
+        },
+        {
+          "name": "status/caution",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/amber/600"
+            }
+          },
+          "cssVar": "--status-caution"
+        },
+        {
+          "name": "status/breaking",
+          "resolvedType": "COLOR",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/red/600"
+            }
+          },
+          "cssVar": "--status-breaking"
+        },
+        {
+          "name": "focus/ring",
+          "resolvedType": "STRING",
+          "description": "",
+          "valuesByMode": {
+            "Default": "0 0 0 3px #B9D0E8"
+          },
+          "cssVar": "--focus-ring"
+        },
+        {
+          "name": "fontRole/display",
+          "resolvedType": "STRING",
+          "description": "Gloock — big display headlines only",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "fontFamily/serif"
+            }
+          },
+          "cssVar": "--font-display"
+        },
+        {
+          "name": "fontRole/headline",
+          "resolvedType": "STRING",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "fontFamily/serif"
+            }
+          },
+          "cssVar": "--font-headline"
+        },
+        {
+          "name": "fontRole/body",
+          "resolvedType": "STRING",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "fontFamily/sans"
+            }
+          },
+          "cssVar": "--font-body"
+        },
+        {
+          "name": "fontRole/ui",
+          "resolvedType": "STRING",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "fontFamily/sans"
+            }
+          },
+          "cssVar": "--font-ui"
+        },
+        {
+          "name": "fontRole/data",
+          "resolvedType": "STRING",
+          "description": "",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "fontFamily/mono"
+            }
+          },
+          "cssVar": "--font-data"
+        },
+        {
+          "name": "fontRole/kicker",
+          "resolvedType": "STRING",
+          "description": "uppercase eyebrows/labels",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "fontFamily/sans"
+            }
+          },
+          "cssVar": "--font-kicker"
+        },
+        {
+          "name": "layoutSpace/gutter",
+          "resolvedType": "FLOAT",
+          "description": "base grid gutter",
+          "valuesByMode": {
+            "Default": 24
+          },
+          "cssVar": "--gutter"
+        },
+        {
+          "name": "layoutSpace/gutter-tight",
+          "resolvedType": "FLOAT",
+          "description": "dense editorial gutter",
+          "valuesByMode": {
+            "Default": 16
+          },
+          "cssVar": "--gutter-tight"
+        },
+        {
+          "name": "layoutSpace/section-y",
+          "resolvedType": "FLOAT",
+          "description": "vertical rhythm between page sections",
+          "valuesByMode": {
+            "Default": 80
+          },
+          "cssVar": "--section-y"
+        },
+        {
+          "name": "layoutSpace/card-pad",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 20
+          },
+          "cssVar": "--card-pad"
+        },
+        {
+          "name": "layoutSpace/card-pad-lg",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 28
+          },
+          "cssVar": "--card-pad-lg"
+        }
+      ]
+    },
+    {
+      "name": "Component",
+      "modes": [
+        "Default"
+      ],
+      "variables": [
+        {
+          "name": "chrome/header-height",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 64
+          },
+          "cssVar": "--header-height"
+        },
+        {
+          "name": "chrome/subnav-height",
+          "resolvedType": "FLOAT",
+          "description": "",
+          "valuesByMode": {
+            "Default": 44
+          },
+          "cssVar": "--subnav-height"
+        },
+        {
+          "name": "onDark/text",
+          "resolvedType": "COLOR",
+          "description": "Body copy on navy",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/blue/200"
+            }
+          },
+          "cssVar": "--on-dark-text"
+        },
+        {
+          "name": "onDark/muted",
+          "resolvedType": "COLOR",
+          "description": "Meta / muted copy on navy",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.615686274509804,
+              "g": 0.6901960784313725,
+              "b": 0.7764705882352941,
+              "a": 1
+            }
+          },
+          "cssVar": "--on-dark-muted"
+        },
+        {
+          "name": "onDark/gold",
+          "resolvedType": "COLOR",
+          "description": "Kickers and accents on navy",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/gold/400"
+            }
+          },
+          "cssVar": "--on-dark-gold"
+        },
+        {
+          "name": "onDark/goldSoft",
+          "resolvedType": "COLOR",
+          "description": "Gold link hover on navy",
+          "valuesByMode": {
+            "Default": {
+              "type": "VARIABLE_ALIAS",
+              "id": "color/gold/200"
+            }
+          },
+          "cssVar": "--on-dark-gold-soft"
+        },
+        {
+          "name": "onDark/hairline",
+          "resolvedType": "COLOR",
+          "description": "Hairline rules on navy",
+          "valuesByMode": {
+            "Default": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 0.16
+            }
+          },
+          "cssVar": "--on-dark-hairline"
+        },
+        {
+          "name": "onDark/hairlineStrong",
+          "resolvedType": "COLOR",
+          "description": "Dock borders on navy",
+          "valuesByMode": {
+            "Default": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 0.14
+            }
+          },
+          "cssVar": "--on-dark-hairline-strong"
+        },
+        {
+          "name": "editorial/kickerSize",
+          "resolvedType": "FLOAT",
+          "description": "Section kicker font size",
+          "valuesByMode": {
+            "Default": 11
+          },
+          "cssVar": "--kicker-size"
+        },
+        {
+          "name": "editorial/kickerTracking",
+          "resolvedType": "STRING",
+          "description": "Section kicker letter-spacing",
+          "valuesByMode": {
+            "Default": "0.16em"
+          },
+          "cssVar": "--kicker-tracking"
+        },
+        {
+          "name": "editorial/metaSize",
+          "resolvedType": "FLOAT",
+          "description": "Mono meta label font size",
+          "valuesByMode": {
+            "Default": 10.5
+          },
+          "cssVar": "--meta-size"
+        },
+        {
+          "name": "editorial/metaTracking",
+          "resolvedType": "STRING",
+          "description": "Mono meta label letter-spacing",
+          "valuesByMode": {
+            "Default": "0.08em"
+          },
+          "cssVar": "--meta-tracking"
+        },
+        {
+          "name": "editorial/containerMax",
+          "resolvedType": "FLOAT",
+          "description": "Homepage section container max-width",
+          "valuesByMode": {
+            "Default": 1360
+          },
+          "cssVar": "--container-editorial"
+        },
+        {
+          "name": "editorial/containerPad",
+          "resolvedType": "FLOAT",
+          "description": "Homepage section horizontal padding at desktop",
+          "valuesByMode": {
+            "Default": 48
+          },
+          "cssVar": "--gutter-editorial"
+        },
+        {
+          "name": "editorial/fadeDuration",
+          "resolvedType": "FLOAT",
+          "description": "Section fade-in (advFade) duration",
+          "valuesByMode": {
+            "Default": 200
+          },
+          "cssVar": "--duration-fade"
+        },
+        {
+          "name": "editorial/scrim",
+          "resolvedType": "COLOR",
+          "description": "Hero image scrim / overlay base",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.027450980392156862,
+              "g": 0.09411764705882353,
+              "b": 0.16862745098039217,
+              "a": 0.75
+            }
+          },
+          "cssVar": "--scrim"
+        }
+      ]
+    }
+  ]
+}

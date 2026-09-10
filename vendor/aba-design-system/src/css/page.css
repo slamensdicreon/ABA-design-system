@@ -1,0 +1,6 @@
+/* Page-level styles used by The Advisory's document (mirrors the tail of its globals.css).
+   Import alongside ./index.css when composing full pages from the organisms. */
+a { color: var(--text-link); text-decoration: none; }
+a:hover { color: var(--text-link-hover); }
+@keyframes advPulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+@keyframes advFade { from { opacity: 0; } to { opacity: 1; } }

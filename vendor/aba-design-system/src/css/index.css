@@ -1,0 +1,6 @@
+/* ABA Design System — full stylesheet entry point.
+   Order matters: fonts → tokens → base → components. */
+@import './fonts.css';
+@import './tokens.css';
+@import './base.css';
+@import './components.css';

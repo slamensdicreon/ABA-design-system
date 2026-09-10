@@ -1,0 +1,27 @@
+{
+  "name": "@workspace/aba-design-system",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "ABA design system: DTCG tokens, generated CSS custom properties, self-hosted fonts and assets, and React atoms/molecules/organisms extracted from The Advisory homepage.",
+  "exports": {
+    ".": "./src/index.ts",
+    "./css": "./src/css/index.css",
+    "./css/*": "./src/css/*",
+    "./tokens": "./src/generated/tokens.ts",
+    "./tokens.json": "./tokens/tokens.json",
+    "./assets/*": "./assets/*",
+    "./react": "./src/react/index.ts",
+    "./react/*": "./src/react/*",
+    "./dist/tokens/*": "./dist/tokens/*",
+    "./dist/packs/*": "./dist/packs/*"
+  },
+  "scripts": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "dependencies": {
+    "@workspace/aba-content": "*"
+  }
+}

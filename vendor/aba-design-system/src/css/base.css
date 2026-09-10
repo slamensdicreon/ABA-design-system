@@ -1,0 +1,93 @@
+/* ============================================================
+   ABA Design System — Base layer
+   Light reset + document defaults + a small set of editorial
+   utility primitives (kicker, rule, byline) used across kits.
+   ============================================================ */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: var(--leading-normal);
+  color: var(--text-primary);
+  background: var(--surface-page);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-synthesis: none;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  color: var(--text-primary);
+  font-weight: var(--weight-regular); /* Gloock ships one weight */
+  line-height: var(--leading-heading);
+  letter-spacing: var(--tracking-snug);
+  margin: 0 0 0.5em;
+  text-wrap: balance;
+}
+h4, h5, h6 {
+  font-family: var(--font-ui);
+  color: var(--text-primary);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-heading);
+  letter-spacing: var(--tracking-snug);
+  margin: 0 0 0.5em;
+  text-wrap: balance;
+}
+p { margin: 0 0 1em; text-wrap: pretty; }
+
+a {
+  color: var(--text-link);
+  text-decoration: none;
+  transition: color var(--duration-fast) var(--ease-standard);
+}
+a:hover { color: var(--text-link-hover); text-decoration: underline; text-underline-offset: 2px; }
+
+small { font-size: var(--text-xs); }
+strong, b { font-weight: var(--weight-semibold); }
+code, kbd, samp { font-family: var(--font-data); font-size: 0.92em; }
+hr {
+  border: 0;
+  border-top: 1px solid var(--border-default);
+  margin: var(--space-6) 0;
+}
+::selection { background: var(--color-blue-200); color: var(--color-blue-900); }
+
+:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+  border-radius: var(--radius-xs);
+}
+
+img, svg, video { display: block; max-width: 100%; }
+
+/* ---- Editorial utility primitives ---- */
+.aba-kicker {
+  font-family: var(--font-kicker);
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-bold);
+  letter-spacing: var(--tracking-kicker);
+  text-transform: uppercase;
+  color: var(--color-blue-600);
+}
+.aba-kicker--gold { color: var(--color-gold-600); }
+.aba-kicker--breaking { color: var(--status-breaking); }
+
+.aba-rule {
+  border: 0;
+  border-top: 2px solid var(--color-ink-900);
+  margin: 0 0 var(--space-3);
+}
+.aba-rule--thin { border-top-width: 1px; border-color: var(--border-default); }
+.aba-rule--brand { border-color: var(--color-blue-500); }
+.aba-rule--gold { border-color: var(--color-gold-500); }
+
+.aba-byline {
+  font-family: var(--font-ui);
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  letter-spacing: var(--tracking-wide);
+}
+.aba-byline strong { color: var(--text-secondary); font-weight: var(--weight-semibold); }
+

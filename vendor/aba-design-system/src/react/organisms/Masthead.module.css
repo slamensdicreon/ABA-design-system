@@ -1,0 +1,226 @@
+.mastheadWrapper {
+  background: #fff;
+  border-bottom: 1px solid var(--border-default);
+  position: relative;
+  z-index: 50;
+}
+.masthead {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 48px;
+  height: 84px;
+  display: flex;
+  align-items: center;
+  gap: 44px;
+}
+.logo {
+  height: 44px;
+  flex: none;
+}
+.desktopNav {
+  display: flex;
+  gap: 8px;
+  flex: 1;
+  justify-content: flex-end;
+}
+.navBtn {
+  appearance: none;
+  border: 0;
+  cursor: pointer;
+  font-family: var(--font-sans);
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  padding: 10px 12px 8px;
+  background: transparent;
+  border-bottom: 2px solid transparent;
+  transition: color 160ms ease, border-color 160ms ease;
+}
+.navBtn:hover {
+  color: var(--color-blue-800) !important;
+}
+.joinBtnDesktop {
+  flex: none;
+}
+.joinBtnMobile {
+  display: none;
+}
+.hamburger {
+  display: none;
+  appearance: none;
+  border: 0;
+  background: transparent;
+  font-family: var(--font-sans);
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.11em;
+  color: var(--text-primary);
+  cursor: pointer;
+}
+.panelContainer {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.mobileDrawer {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-bottom: 1px solid var(--border-default);
+  box-shadow: 0 18px 44px rgba(11,36,64,0.10);
+  max-height: calc(100vh - 84px);
+  overflow-y: auto;
+}
+
+@media (max-width: 1024px) {
+  .masthead {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .panelContainer {
+    display: none;
+  }
+  .masthead {
+    padding: 0 24px;
+    justify-content: space-between;
+  }
+  .desktopNav {
+    display: none;
+  }
+  .joinBtnDesktop {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .mobileDrawer {
+    display: block;
+  }
+}
+
+/* Mobile drawer specific styles */
+.mobileDrawerInner {
+  display: flex;
+  flex-direction: column;
+}
+.mobileTabs {
+  display: flex;
+  flex-direction: column;
+}
+.mobileTabGroup {
+  display: flex;
+  flex-direction: column;
+}
+.mobileTabBtn {
+  appearance: none;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--border-default);
+  text-align: left;
+  padding: 16px 24px;
+  font-family: var(--font-sans);
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+}
+.mobileTabContent {
+  padding: 24px;
+  background: #fdfdfd;
+  border-bottom: 1px solid var(--border-default);
+}
+.mobileTabIntro {
+  font-size: 14.5px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin: 0 0 24px;
+}
+.mobileTabLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.mobileGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.mobileGroupTitle {
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border-default);
+  padding-bottom: 8px;
+}
+.mobileLinkWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.mobileLink {
+  font-size: 14.5px;
+  font-weight: 500;
+  color: var(--text-primary);
+  text-decoration: none;
+}
+.mobileLinkDesc {
+  font-size: 12.5px;
+  color: var(--text-muted);
+}
+.mobileFeatured {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border-default);
+}
+.mobileFeatKick {
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-gold-600);
+}
+.mobileFeatTitle {
+  font-family: var(--font-serif);
+  font-size: 20px;
+  line-height: 1.25;
+  margin: 8px 0 12px;
+}
+.mobileFeatCta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-blue-800);
+  text-decoration: none;
+}
+.mobileQuickActions {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background: var(--color-blue-50);
+}
+.mobileQuickAction {
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-blue-800);
+  text-decoration: none;
+}
+.mobileJoinBtn {
+  margin-top: 16px;
+  text-align: center;
+  justify-content: center;
+}
